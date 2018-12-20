@@ -1,17 +1,10 @@
-﻿#-----------------------------------|
-#	Written by Sean May - CyberArk	|
-#	December 6, 2018				|
-#	Version 1						|
-#	Note: This is not an official	|
-#	CyberArk utility.				|
-#-----------------------------------|
-
-# Usage: This script assumes that it will be ran on a CCP server that is NOT also being used
-# as a standalone Credential Provider. Because the script cannot differentiate between CCP calls
-# and direct CP calls, it will be very important to ensure it's only ran on CCP servers for
-# accurate reporting. Once the CSV file is generated, the user will need to manually combine
-# that file with reports from other CCP servers in order to provide a full list of the endpoints
-# and remove any duplicates between them, at least for now. ;)
+#---------------------------------------
+#	Written by Sean May - CyberArk
+#	December 6, 2018
+#	Version 2
+#	Note: This is not an official
+#	CyberArk utility.
+#---------------------------------------
 
 $installDir = "unknown"
 
