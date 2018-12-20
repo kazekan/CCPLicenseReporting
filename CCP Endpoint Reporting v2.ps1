@@ -62,7 +62,7 @@ function Find-LogPath($installDir) {
 }
 
 Set-Variable savePath (Find-SavePath)
-$savePath = $savePath + "\CCP.csv"
+$savePath = $savePath + "\CCPLicenseReport.csv"
 
 Set-Variable installDir (Find-InstallDir)
 
